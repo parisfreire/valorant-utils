@@ -1,0 +1,90 @@
+body {
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.App-logo1 {
+  height: 25vmin;
+  pointer-events: none;
+}
+.App-logo2 {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo1 {
+    /*animation: App-logo-spin infinite 20s linear;*/
+  }
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  min-height: 30vh;
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: initial;
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul{
+  list-style-type:none;
+}
+
+.Team-generator {
+  width: 33%;
+}
+
+.Team {
+  width: 33%;
+}
+.Team h2{
+  color:#f50057;
+}
+
+.Player-list{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.Generate-teams{
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.Add-player-wrapper{
+  display: flex;
+  margin-top: 10px;
+}
+
+.Player-input {
+  
+  margin-right: 5px;
+}
+
+.Save-Player{
+
+}
