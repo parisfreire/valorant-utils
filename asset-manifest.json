@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/valorant-utils/static/css/main.ea923be0.chunk.css",
+    "main.js": "/valorant-utils/static/js/main.ef72da01.chunk.js",
+    "main.js.map": "/valorant-utils/static/js/main.ef72da01.chunk.js.map",
+    "runtime-main.js": "/valorant-utils/static/js/runtime-main.325d3804.js",
+    "runtime-main.js.map": "/valorant-utils/static/js/runtime-main.325d3804.js.map",
+    "static/js/2.3a81eef3.chunk.js": "/valorant-utils/static/js/2.3a81eef3.chunk.js",
+    "static/js/2.3a81eef3.chunk.js.map": "/valorant-utils/static/js/2.3a81eef3.chunk.js.map",
+    "index.html": "/valorant-utils/index.html",
+    "precache-manifest.3848ed90b7997690c2bce8fd221c6b8b.js": "/valorant-utils/precache-manifest.3848ed90b7997690c2bce8fd221c6b8b.js",
+    "service-worker.js": "/valorant-utils/service-worker.js",
+    "static/css/main.ea923be0.chunk.css.map": "/valorant-utils/static/css/main.ea923be0.chunk.css.map",
+    "static/js/2.3a81eef3.chunk.js.LICENSE.txt": "/valorant-utils/static/js/2.3a81eef3.chunk.js.LICENSE.txt",
+    "static/media/valorant-logo.png": "/valorant-utils/static/media/valorant-logo.04e02c9b.png",
+    "static/media/valorant-title-logo.png": "/valorant-utils/static/media/valorant-title-logo.6bd698a7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.325d3804.js",
+    "static/js/2.3a81eef3.chunk.js",
+    "static/css/main.ea923be0.chunk.css",
+    "static/js/main.ef72da01.chunk.js"
+  ]
+}
