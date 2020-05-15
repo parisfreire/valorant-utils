@@ -75,6 +75,12 @@ class TeamGenerator extends Component {
         this.setState({team2 : team2});
     }
 
+    handleKeyDown = (e) => {
+        if (e.key === 'Enter') {
+          this.savePlayer();
+        }
+      }
+
     render(){
         return (
             <React.Fragment>
@@ -86,8 +92,10 @@ class TeamGenerator extends Component {
                         <div className="Add-player-wrapper">
                             <input className="Player-input" type="text" placeholder="Add player name"
                             ref={input => this.playerInput = input} 
-                            onFocus = {() => this.playerInput.value = ""} />
-                            <Button variant="outlined" color="secondary" className="Save-Player" onClick={() => this.savePlayer()}>Add</Button>
+                            onFocus = {() => this.playerInput.value = ""}
+                            onKeyDown={this.handleKeyDown}/>
+                            <Button variant="outlined" color="secondary" className="Save-Player"
+                            onClick={() => this.savePlayer()}>Add</Button>
                         </div>
                         <ul>
                             { this.state.playerList.map(player => <li key={player.id}>{player.name}</li>) }
