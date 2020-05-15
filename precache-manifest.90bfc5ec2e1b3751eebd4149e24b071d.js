@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0da7ee763912e97758a93add9c9c0f37",
+    "revision": "aaf5104a4e518dd6e6d7dca9ee81ea19",
     "url": "/valorant-utils/index.html"
   },
   {
