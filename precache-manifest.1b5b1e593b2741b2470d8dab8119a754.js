@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1a78794ca7234299546ad81bb633452",
+    "revision": "e00fb763db9603486afd5a7b3382ad3d",
     "url": "/valorant-utils/index.html"
   },
   {
-    "revision": "493adb22138d016aeaec",
+    "revision": "4ff3df9a88f6035380c9",
     "url": "/valorant-utils/static/css/main.e190f84c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/valorant-utils/static/js/2.1d5999d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "493adb22138d016aeaec",
-    "url": "/valorant-utils/static/js/main.2da6509d.chunk.js"
+    "revision": "4ff3df9a88f6035380c9",
+    "url": "/valorant-utils/static/js/main.7526eaea.chunk.js"
   },
   {
     "revision": "e5f2d73a3a97f4466777",
