@@ -4,6 +4,8 @@ import Button from '@material-ui/core/Button';
 import Team from './Team';
 
 
+import Grid from '@material-ui/core/Grid';
+
 class TeamGenerator extends Component {
 
     state = {
@@ -24,7 +26,7 @@ class TeamGenerator extends Component {
             
             this.setState({ playerList : players, playerCount: this.state.playerCount + 1 });
         }
-        
+
         this.playerInput.focus();
     }
 
@@ -77,6 +79,7 @@ class TeamGenerator extends Component {
 
     handleKeyDown = (e) => {
         if (e.key === 'Enter') {
+          this.playerInput.blur();
           this.savePlayer();
         }
       }
@@ -85,32 +88,43 @@ class TeamGenerator extends Component {
         return (
             <React.Fragment>
                 <div className="Team-generator">
-                    <div className="Player-list">
-                    <Button variant="outlined" color="secondary" className="Generate-teams" onClick={() => this.generateTeams()}
-                    > Generate Teams</Button>
+                    <Grid item md={6} sm={12}>
+                                <div className="Player-list">
+                                <h2>PLAYERS LIST</h2>
+                                    <Grid item sm={12}>
+                                        <div className="Add-player-wrapper">
+                                            <Grid item sm={8}>
+                                                <input className="Player-input" type="text" placeholder="Add a nickname"
+                                                ref={input => this.playerInput = input} 
+                                                onFocus = {() => this.playerInput.value = ""}
+                                                onKeyDown={this.handleKeyDown}/>
+                                            </Grid>    
+                                            <Grid item sm={4}>
+                                                <Button variant="outlined" color="secondary" className="Save-Player"
+                                                onClick={() => this.savePlayer()}>Add</Button>
+                                            </Grid>    
+                                        </div>
+                                    </Grid>
+                                    <ul>
+                                        { this.state.playerList.map(player => <li key={player.id}>{player.name}</li>) }
+                                    </ul>
+                                    <Button variant="outlined" color="secondary" className="Generate-teams" onClick={() => this.generateTeams()}
+                                > Generate Teams</Button>
+                                </div> 
+                    </Grid>
 
-                        <div className="Add-player-wrapper">
-                            <input className="Player-input" type="text" placeholder="Add player name"
-                            ref={input => this.playerInput = input} 
-                            onFocus = {() => this.playerInput.value = ""}
-                            onKeyDown={this.handleKeyDown}/>
-                            <Button variant="outlined" color="secondary" className="Save-Player"
-                            onClick={() => this.savePlayer()}>Add</Button>
-                        </div>
-                        <ul>
-                            { this.state.playerList.map(player => <li key={player.id}>{player.name}</li>) }
-                        </ul>
-                    </div>
-                </div>
-                
-                { this.state.team1.length > 0 && 
-                    <Team players={this.state.team1} number="1"/> }
+                    <Grid item md={4} sm={12}>
+                                { this.state.team1.length > 0 && 
+                                    <Team players={this.state.team1} number="1"/> }         
+                    </Grid>  
 
-                {  this.state.team2.length > 0 && 
-                    <Team players={this.state.team2} number="2"/> }
-
+                    <Grid item md={4} sm={12}>
+                            {  this.state.team2.length > 0 && 
+                                <Team players={this.state.team2} number="2"/> }  
+                    </Grid>
+                </div>     
             </React.Fragment>
-        )
+        )  
     }
 }
 
