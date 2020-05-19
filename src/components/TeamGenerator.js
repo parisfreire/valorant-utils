@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import Button from '@material-ui/core/Button';
+import { Grid, Button } from '@material-ui/core';
 
 import Team from './Team';
 
-
-import Grid from '@material-ui/core/Grid';
 
 class TeamGenerator extends Component {
 
@@ -71,6 +69,8 @@ class TeamGenerator extends Component {
                 }
             }
             addToTeam1 = !addToTeam1;
+
+            return null;
         });
 
         this.setState({team1 : team1});
@@ -110,7 +110,7 @@ class TeamGenerator extends Component {
                                     </ul>
                                     <Button variant="outlined" color="secondary" className="Generate-teams" onClick={() => this.generateTeams()}
                                 > Generate Teams</Button>
-                                </div> 
+                                </div>
                     </Grid>
 
                     <Grid item md={4} sm={12}>

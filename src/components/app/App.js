@@ -21,12 +21,13 @@ function App() {
           <Grid item xs={12}>
             <div class="Content">
             <Switch>
-              <Redirect from="/" exact to="/valorant-utils" />  
-              <Redirect from="/valorant-utils" exact to="/team-generator" />
-              <Route path="/team-generator">
+              <Redirect from="/" exact to="/valorant-utils" />
+               
+              <Redirect from="/valorant-utils" exact to="/valorant-utils/team-generator" />
+              <Route path="/valorant-utils/team-generator">
                 <TeamGenerator />
               </Route>
-              <Route path="/map-picker">
+              <Route path="/valorant-utils/map-picker">
                 <MapPicker />
               </Route>
           </Switch>

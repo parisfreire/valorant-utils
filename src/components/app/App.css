@@ -8,8 +8,32 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;   
+  position: fixed;
+  height: 60px;
+  width: 100%;
   background-color: #ff4654;
+}
+
+.Content { 
+  display: flex;
+  margin-top: 60px;
+  min-height: calc(100vh - 120px);
+}
+
+.Footer { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.Footer a{
+  color: #ff4654;
+  text-decoration: none;
+}
+  
+.Footer a:visited{
+  text-decoration: none;
 }
 
 .App-logo {
@@ -46,28 +70,7 @@
   padding: 5px 15px;
 }
 
-.Content { 
-  display: flex;
-  background-color: #18212A;
-  height: 80vh;
-}
 
-.Footer { 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
-  background-color: #18212A;
-}
-
-.Footer a{
-  color: #ff4654;
-  text-decoration: none;
-}
-  
-.Footer a:visited{
-  text-decoration: none;
-}
 
 .Team-generator {
   width: 100%;
@@ -85,6 +88,28 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+}
+
+.Map-generator {
+  width: 100%;
+  display:flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top:20px;
+}
+
+.Map-list{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.Map-image{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top:20px;
+
 }
 
 .Team {
@@ -113,6 +138,11 @@
 
 @media only screen and (max-width: 600px) {
   .Team-generator{
+    display: flex;
+    flex-flow: column;
+  }
+
+  .Map-generator{
     display: flex;
     flex-flow: column;
   }
