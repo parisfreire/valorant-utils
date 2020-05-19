@@ -22,7 +22,6 @@ function App() {
             <div class="Content">
             <Switch>
               <Redirect from="/" exact to="/valorant-utils" />
-               
               <Redirect from="/valorant-utils" exact to="/valorant-utils/team-generator" />
               <Route path="/valorant-utils/team-generator">
                 <TeamGenerator />

@@ -10,7 +10,6 @@ class MapPicker extends Component {
 
     state = {
         mapList: [split, bind, haven],
-        mapStringList: ['SPLIT', 'BIND', 'HAVEN'],
         selectedMap: null,
         selectedMapString: ""
     }
@@ -19,8 +18,7 @@ class MapPicker extends Component {
         const mapNumber = Math.floor(Math.random() * (this.state.mapList.length));
 
         this.setState({ 
-            selectedMap: this.state.mapList[mapNumber],
-            selectedMapString: this.state.mapStringList[mapNumber]
+            selectedMap: this.state.mapList[mapNumber]
          });
     }
 
@@ -36,12 +34,8 @@ class MapPicker extends Component {
                         </div>
                         <div className="Map-image">
                         {
-                            this.state.selectedMap !== null ?
-                                <>
-                                    <h2> {this.state.selectedMapString.toString()} </h2>
+                            this.state.selectedMap !== null &&
                                     <img src={this.state.selectedMap} alt="map-logo" /> 
-                                </>
-                            : null
                         }
                         </div>  
                     </Grid>
