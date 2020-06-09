@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8ea51097f50da24d8cf9163eb254d15",
+    "revision": "6f0e1bd27fcc482dfb19e340b0aee995",
     "url": "/valorant-utils/index.html"
   },
   {
-    "revision": "c5bd1f516f9b33d565f6",
+    "revision": "3054f7ee83a31b7a735a",
     "url": "/valorant-utils/static/css/main.3306b43c.chunk.css"
   },
   {
-    "revision": "eb54ef12267c63063be7",
-    "url": "/valorant-utils/static/js/2.04ea2047.chunk.js"
+    "revision": "e69a8cbd8384c07cb7ad",
+    "url": "/valorant-utils/static/js/2.bf918c63.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/valorant-utils/static/js/2.04ea2047.chunk.js.LICENSE.txt"
+    "url": "/valorant-utils/static/js/2.bf918c63.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5bd1f516f9b33d565f6",
-    "url": "/valorant-utils/static/js/main.fadc98b9.chunk.js"
+    "revision": "3054f7ee83a31b7a735a",
+    "url": "/valorant-utils/static/js/main.a7ff06e8.chunk.js"
   },
   {
     "revision": "e5f2d73a3a97f4466777",
     "url": "/valorant-utils/static/js/runtime-main.325d3804.js"
+  },
+  {
+    "revision": "0ccdc09f42b740e7aa441fa7f9a3fad0",
+    "url": "/valorant-utils/static/media/ascent.0ccdc09f.png"
   },
   {
     "revision": "b07a6070aea4838192b2d80e690ccef1",
