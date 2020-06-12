@@ -136,16 +136,53 @@
  
 }
 
+.Side-draw {
+  width: 100%;
+  display:flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top:20px;
+}
+
+.Team-list{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.Add-team-wrapper{
+  display: flex;
+  margin-top: 10px;
+}
+
+.Team-input {
+  height: 80%;
+  margin-right: 5px;
+}
+
+.Generate-sides{
+  margin-bottom: 10px;
+}
+
+.Side {
+  display:flex;
+  flex-flow: column;
+}
+
 @media only screen and (max-width: 600px) {
   .Team-generator{
     display: flex;
     flex-flow: column;
   }
-
   .Map-generator{
     display: flex;
     flex-flow: column;
   }
+  .Side-draw{
+    display: flex;
+    flex-flow: column;
+  }
+
 }
 
 

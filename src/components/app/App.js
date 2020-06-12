@@ -3,6 +3,7 @@ import './App.css';
 
 import TeamGenerator from '../TeamGenerator';
 import MapPicker from '../MapPicker';
+import SideDraw from '../SideDraw';
 
 import Header from '../Header';
 import Footer from '../Footer';
@@ -28,6 +29,9 @@ function App() {
               </Route>
               <Route path="/valorant-utils/map-picker">
                 <MapPicker />
+              </Route>
+              <Route path="/valorant-utils/side-draw">
+                <SideDraw />
               </Route>
           </Switch>
             </div>

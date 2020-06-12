@@ -19,6 +19,9 @@ function Header() {
                         <li>
                             <Link to="/valorant-utils/map-picker">MAP PICKER</Link>
                         </li>
+                        <li>
+                            <Link to="/valorant-utils/side-draw">SIDE DRAW</Link>
+                        </li>
                     </ul>
                 </nav>   
                
