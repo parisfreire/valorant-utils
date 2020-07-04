@@ -9,7 +9,8 @@ function Footer() {
               <span role="img" aria-label="demon">😈</span>
                 Designed and developed by 
                 <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/rodrigolamela"> Lamela</a> & 
-                <a target="_blank" rel="noopener noreferrer" href="https://www.parisfreire.com"> Paris </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.parisfreire.com"> Paris </a> & 
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Balberte"> Borja </a>
               <span role="img" aria-label="demon">😈</span>
             </p>
           </div>

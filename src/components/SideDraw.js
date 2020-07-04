@@ -121,12 +121,12 @@ class SideDraw extends Component {
 
                     <Grid item md={4} sm={12}>
                                 { this.state.attackerTeam.length > 0 && 
-                                    <Side teams={this.state.attackerTeam} sideRole="Attacking"/> }         
+                                    <Side teams={this.state.attackerTeam} sideRole="Map"/> }         
                     </Grid>  
 
                     <Grid item md={4} sm={12}>
                             {  this.state.defendingTeam.length > 0 && 
-                                <Side teams={this.state.defendingTeam} sideRole="Defending"/> }  
+                                <Side teams={this.state.defendingTeam} sideRole="Side"/> }  
                     </Grid>
                 </div>     
             </React.Fragment>
