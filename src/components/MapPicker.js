@@ -5,11 +5,12 @@ import { Grid, Button } from '@material-ui/core';
 import split from '../assets/images/split.png';
 import bind from '../assets/images/bind.png';
 import haven from '../assets/images/haven.png';
+import ascent from '../assets/images/ascent.png';
 
 class MapPicker extends Component {
 
     state = {
-        mapList: [split, bind, haven],
+        mapList: [split, bind, haven, ascent],
         selectedMap: null,
         selectedMapString: ""
     }
