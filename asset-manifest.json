@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/valorant-utils/static/css/main.3306b43c.chunk.css",
-    "main.js": "/valorant-utils/static/js/main.a7ff06e8.chunk.js",
-    "main.js.map": "/valorant-utils/static/js/main.a7ff06e8.chunk.js.map",
+    "main.css": "/valorant-utils/static/css/main.1016fac1.chunk.css",
+    "main.js": "/valorant-utils/static/js/main.271793f3.chunk.js",
+    "main.js.map": "/valorant-utils/static/js/main.271793f3.chunk.js.map",
     "runtime-main.js": "/valorant-utils/static/js/runtime-main.325d3804.js",
     "runtime-main.js.map": "/valorant-utils/static/js/runtime-main.325d3804.js.map",
-    "static/js/2.bf918c63.chunk.js": "/valorant-utils/static/js/2.bf918c63.chunk.js",
-    "static/js/2.bf918c63.chunk.js.map": "/valorant-utils/static/js/2.bf918c63.chunk.js.map",
+    "static/js/2.64f99c9a.chunk.js": "/valorant-utils/static/js/2.64f99c9a.chunk.js",
+    "static/js/2.64f99c9a.chunk.js.map": "/valorant-utils/static/js/2.64f99c9a.chunk.js.map",
     "index.html": "/valorant-utils/index.html",
-    "precache-manifest.09269c7e443e8074e8a2fa8e94c10ec1.js": "/valorant-utils/precache-manifest.09269c7e443e8074e8a2fa8e94c10ec1.js",
+    "precache-manifest.a5374b761f84d69b6af29d7c11f3e996.js": "/valorant-utils/precache-manifest.a5374b761f84d69b6af29d7c11f3e996.js",
     "service-worker.js": "/valorant-utils/service-worker.js",
-    "static/css/main.3306b43c.chunk.css.map": "/valorant-utils/static/css/main.3306b43c.chunk.css.map",
-    "static/js/2.bf918c63.chunk.js.LICENSE.txt": "/valorant-utils/static/js/2.bf918c63.chunk.js.LICENSE.txt",
+    "static/css/main.1016fac1.chunk.css.map": "/valorant-utils/static/css/main.1016fac1.chunk.css.map",
+    "static/js/2.64f99c9a.chunk.js.LICENSE.txt": "/valorant-utils/static/js/2.64f99c9a.chunk.js.LICENSE.txt",
     "static/media/ascent.png": "/valorant-utils/static/media/ascent.0ccdc09f.png",
     "static/media/bind.png": "/valorant-utils/static/media/bind.b07a6070.png",
     "static/media/haven.png": "/valorant-utils/static/media/haven.1218b93d.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.325d3804.js",
-    "static/js/2.bf918c63.chunk.js",
-    "static/css/main.3306b43c.chunk.css",
-    "static/js/main.a7ff06e8.chunk.js"
+    "static/js/2.64f99c9a.chunk.js",
+    "static/css/main.1016fac1.chunk.css",
+    "static/js/main.271793f3.chunk.js"
   ]
 }
